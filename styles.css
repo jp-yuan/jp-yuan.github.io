@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .contact-info {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+header .contact-info span {
+    display: inline-block;
+}
+
+header .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .contact-info a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.about, .education, .skills, .projects, .contact {
+    margin-bottom: 2rem;
+}
+
+.about h2, .education h2, .skills h2, .projects h2, .contact h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+.education .education-item {
+    margin: 1rem 0;
+}
+
+.education .education-item .date {
+    float: right;
+    font-weight: normal;
+}
+
+.projects .project-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.projects .project-item h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects .project-item .project-date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.contact form button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
