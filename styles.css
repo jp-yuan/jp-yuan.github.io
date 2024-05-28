@@ -12,38 +12,17 @@ header {
     text-align: center;
 }
 
-header .contact-info {
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 1rem;
-}
-
-header .contact-info span {
-    display: inline-block;
-}
-
-header .contact-info a {
-    color: #fff;
-    text-decoration: none;
-}
-
-header .contact-info a:hover {
-    text-decoration: underline;
-}
-
-nav ul {
+header nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     margin: 0 1rem;
 }
 
-nav ul li a {
+header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
@@ -53,11 +32,11 @@ nav ul li a {
     margin: 2rem auto;
 }
 
-.about, .education, .skills, .projects, .contact {
+.about, .education, .skills, .projects, .experience {
     margin-bottom: 2rem;
 }
 
-.about h2, .education h2, .skills h2, .projects h2, .contact h2 {
+.about h2, .education h2, .skills h2, .projects h2, .experience h2 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
 }
@@ -89,22 +68,14 @@ nav ul li a {
     color: #666;
 }
 
-.contact form {
-    display: flex;
-    flex-direction: column;
+.experience .experience-item {
+    margin: 1rem 0;
 }
 
-.contact form input, .contact form textarea {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-}
-
-.contact form button {
-    padding: 0.5rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
+.experience .experience-item .date {
+    float: right;
+    font-size: 0.9em;
+    color: #666;
 }
 
 footer {
@@ -112,4 +83,24 @@ footer {
     padding: 1rem 0;
     background-color: #333;
     color: #fff;
+}
+
+footer .contact-info {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .contact-info span {
+    display: inline-block;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .contact-info a:hover {
+    text-decoration: underline;
 }
